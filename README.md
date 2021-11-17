@@ -1,4 +1,5 @@
 # Easy2DThermalSimulation
+![alt text](https://github.com/MrBounty/EasyThermalSimulation/tree/main/Image/capture.png?raw=true)
 This is the first project I have done. It allows to thermally simulate a ligne in 1D, a rectangle in 2D and a cuboid in 3D by choosing the properties of the materials and others. It's full of mistakes, don't do much but I spent time there, learned a lot of programming basics while doing it and it's my first baby so I'm proud of it.
 
 
@@ -11,13 +12,24 @@ To start a new simulation you just have to start the program.
 When we run the program for the first time, it asks us for the geometry of space.
 You must enter 1, 2 or 3 for 1D, 2D or 3D.
 Then depending on the size it will open this menu. Menu 1:
+
 Here this menu is for 1D, for 2D and 3D it also asks for the length, the number of points and the lambda for y and z. Basically they are at 0 and if we leave them at 0 they will have the same value as in x.
 
 Then it opens another menu for the limit conditions, menu 2. You must enter the type of condition and the associated values for each limit. Type 1, imposed temperature; type 2, imposed h; type 3, imposed flow.
 In the example we see an imposed temperature of 20 ° C for limit 1 and a flow and 500W / m² for limit 2.
 Limits are found here for 1D:
+| Side number  | Where |
+| ------------- | ------------- |
+| 1  | left  |
+| 2  | right  |
  
 The limits are here for 2D:
+| Side number  | Where |
+| ------------- | ------------- |
+| 1  | up  |
+| 2  | right  |
+| 3  | down  |
+| 4  | left  |
  
 For 3D the limits are the 6 surfaces, if we imagine a cube:
 | Side number  | Where |
