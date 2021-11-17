@@ -12,12 +12,15 @@ To start a new simulation you just have to start the program.
 When we run the program for the first time, it asks us for the geometry of space.
 You must enter 1, 2 or 3 for 1D, 2D or 3D.
 Then depending on the size it will open this menu. Menu 1:
+
 ![alt text](https://github.com/MrBounty/EasyThermalSimulation/blob/main/Image/Menu1_1D.PNG)
 
 Here this menu is for 1D, for 2D and 3D it also asks for the length, the number of points and the lambda for y and z. Basically they are at 0 and if we leave them at 0 they will have the same value as in x.
 
 Then it opens another menu for the limit conditions, menu 2. You must enter the type of condition and the associated values for each limit. Type 1, imposed temperature; type 2, imposed h; type 3, imposed flow.
+
 ![alt text](https://github.com/MrBounty/EasyThermalSimulation/blob/main/Image/Menu2_1D.PNG)
+
 In the example we see an imposed temperature of 20 ° C for limit 1 and a flow and 500W / m² for limit 2.
 Limits are found here for 1D:
 | Side number  | Where |
@@ -44,10 +47,14 @@ For 3D the limits are the 6 surfaces, if we imagine a cube:
 | 6  | behind  |
 
 In addition, there is another line called "More options". If we put 0, this part is finished but if we enter 1 then we have access to another menu. The menu 3.
+
 ![alt text](https://github.com/MrBounty/EasyThermalSimulation/blob/main/Image/Menu3_1D.PNG)
+
 In this menu you can choose different things, either a flow on a limit or an internal power for a certain period of time, or different air temperatures for each limit.
 If we put 1 for a flow at limit 1 then we have this menu to enter the power and the period.
+
 ![alt text](https://github.com/MrBounty/EasyThermalSimulation/blob/main/Image/Menu4_1D.PNG)
+
 Finally the program outputs 3 matrices, V for the values of menu 1, H for the limits and O for the options.
 When we relaunch the values part, we are asked what we want to change, menu 1, 2 or 3. Please note, if the options are not activated in menu 2 then we cannot open the
 menu 3.
