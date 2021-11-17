@@ -14,19 +14,20 @@ Then depending on the size it will open this menu. Menu 1:
 Here this menu is for 1D, for 2D and 3D it also asks for the length, the number of points and the lambda for y and z. Basically they are at 0 and if we leave them at 0 they will have the same value as in x.
 
 Then it opens another menu for the limit conditions, menu 2. You must enter the type of condition and the associated values for each limit. Type 1, imposed temperature; type 2, imposed h; type 3, imposed flow.
-In the example we see an imposed temperature of 20 ° C for limit 1 and a flow and 500
-W / m² for limit 2.
-Limits are found here for 1D: 1 2
+In the example we see an imposed temperature of 20 ° C for limit 1 and a flow and 500W / m² for limit 2.
+Limits are found here for 1D:
  
-The limits are here for 2D: 4 2
+The limits are here for 2D:
  
 For 3D the limits are the 6 surfaces, if we imagine a cube:
--Side 1 is up
--Side 2 is on the right
--Side 3 is down
--Side 4 is on the left
--Side 5 is in front
--Side 6 is behind
+| Side number  | Where |
+| ------------- | ------------- |
+| 1  | up  |
+| 2  | right  |
+| 3  | down  |
+| 4  | left  |
+| 5  | front  |
+| 6  | behind  |
 
 In addition, there is another line called "More options". If we put 0, this part is finished but if we enter 1 then we have access to another menu. The menu 3.
 In this menu you can choose different things, either a flow on a limit or an internal power for a certain period of time, or different air temperatures for each limit.
